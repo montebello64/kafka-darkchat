@@ -26,7 +26,7 @@ services:
       KAFKA_RESTART_DELAY: "5"
       ZOOKEEPER_AUTOPURGE_PURGE_INTERVAL: "0"
   darkchat:
-    build: .
+    image: montebello64/darkchat:latest
     restart: unless-stopped
     depends_on:
       - "kafka"
