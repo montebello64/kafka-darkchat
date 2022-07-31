@@ -3,7 +3,7 @@
 Simple Kafka cluster with kafdrop and a darkchat producer
 ~~~
 
-## change hostname
+## docker-compose.yml
 ~~~
 # Change EXTERNAL hostname kafka ...
 KAFKA_ADVERTISED_LISTENERS: "INTERNAL://kafka:29092,EXTERNAL://kafka:9092"
